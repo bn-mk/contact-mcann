@@ -24,4 +24,4 @@ Route::get('/dashboard', function () {
 
 Route::get('contact-us', [ContactController::class, 'show']);
 
-require __DIR__.'/auth.php';
+// require __DIR__.'/auth.php';
