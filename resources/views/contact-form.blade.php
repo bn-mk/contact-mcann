@@ -1,1 +1,1 @@
-<p>This is the contact form page</p>
+<p>This is the contact form page {{ $blah }}</p>

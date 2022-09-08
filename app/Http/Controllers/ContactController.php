@@ -7,9 +7,12 @@ use App\Interfaces\ContactFormInterface;
 
 class ContactController extends Controller
 {
-    public function show()
+    public function show(ContactFormInterface $form)
     {
-        return view('contact-form');
+        /**
+         * @var DatabaseFormHandler $form
+         */
+        return view('contact-form', ['blah' => $form->blah()]);
     }
 
     public function store(StoreContactRequest $request, ContactFormInterface $form)

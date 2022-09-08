@@ -2,7 +2,7 @@
 
 namespace App\Interfaces;
 
-class ContactFormInterface
+interface ContactFormInterface
 {
     //
 }
